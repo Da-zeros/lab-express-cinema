@@ -1,8 +1,61 @@
+*{
+  margin:0;
+}
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/cinema.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: end;
+}
+
+.containerTitle{
+  padding: 80px 300px 50px 0;
+}
+
+.containerTitle > h1{
+  font-size: 11em;
+  color: white;
+  margin-bottom: 50px;
+  
+}
+
+.containerTitle > a{
+  text-decoration: none;
+  padding: 20px 40px;
+  background-color: azure;
+  border-radius: 56px;
+  box-shadow: 1px 1px 5px 0 rgb(0, 0, 0);
+  font-size: 1.5em;
+}
+
+.containerTitle > a:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 a {
   color: #00B7FF;
 }
+
+/*Peli individual*/
+.movie{
+  display: flex;
+  padding: 50px;
+}
+
+.movieInfo{
+  padding-left: 30px;
+}
+
+.movieInfo{
+  list-style: none;
+}
+
